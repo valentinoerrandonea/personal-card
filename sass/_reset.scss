@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../assets/images/bg-imh/mesh-gradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: $primaryColor;
+    width: 80%;
+    margin: auto;
+    font-family: "Fira Code", monospace;
+
+    span {
+        color: $secondaryColor;
+    }
+
+    a {
+        text-decoration: none;
+        color: $primaryColor;
+        font-family: "Fira Code", monospace;
+    }
+
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+
+}
+
+
+a:hover {
+    font-weight: bolder;
+    color: $secondaryColor
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-size: 2.188rem;
+    font-weight: bolder;
+    margin-top: 10rem;
+}
+
+.description {
+    font-size: 1.25rem;
+    margin-bottom: 0.681rem;
+}
